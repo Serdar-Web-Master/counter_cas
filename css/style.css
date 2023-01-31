@@ -15,12 +15,12 @@
 }
 .zero__field {
     width: 100%;
-    min-height: 50px;
+    min-height: 40px;
     background-color: green;
     color: white;
     text-align: center;
-    padding-top: 5%;
-    font-size: 30px;
+    padding-top: 3%;
+    font-size: 25px;
 }
 .numbers__field {
     display: flex;
@@ -28,7 +28,7 @@
 }
 .number__block {
     width: 100px;
-    height: 43px;
+    height: 42px;
     text-align: center;
     padding-top: 2%;
     font-size: 30px;
