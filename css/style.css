@@ -8,5 +8,37 @@
 .main {
     flex: 1 1 auto;
 }
+.bet__field {
+    margin: 10px auto;
+    /* border: 2px solid black; */
+    max-width: 300px;
+}
+.zero__field {
+    width: 100%;
+    min-height: 100px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding-top: 11%;
+    font-size: 30px;
+}
+.numbers__field {
+    display: flex;
+    flex-wrap: wrap;
+}
+.number__block {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding-top: 11%;
+    font-size: 35px;
+    color: white;
+}
+.red {
+    background-color: red;
+}
+.black {
+    background-color: black;
+}
 .footer {
 }
