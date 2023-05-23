@@ -6,11 +6,10 @@
 .container {
 }
 .main {
-    flex: 1 1 auto;
+    display: flex;
 }
 .bet__field {
-    margin: 10px auto;
-    /* border: 2px solid black; */
+    margin: 25px 25px;
     max-width: 300px;
 }
 .zero__field {
@@ -25,8 +24,12 @@
 .numbers__field {
     display: flex;
     flex-wrap: wrap;
+
+    width: 300px;
+    
 }
 .number__block {
+    cursor: pointer;
     width: 100px;
     height: 42px;
     text-align: center;
@@ -35,11 +38,89 @@
     color: white;
     border-bottom: 1px solid black;
 }
+
+/* Блок Статистики */
+.static__block {
+    min-width: 300px;
+    text-align: center;
+}
+.static__block h1 {
+    font-size: 25px;
+    margin-top: 4px;
+}
+
+.block__spin {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.block__spin h1 {
+    margin-bottom: 5px;
+}
+.block1 {
+    display: flex;
+    justify-content: space-around;
+}
+.block1__item {
+    width: 30%;
+    height: 70px;
+    font-size: 25px;
+    padding-top: 5%;
+}
+.number0 {
+    background-color: green;
+    color: white;
+}
+.number0__counter {
+    font-size: 20px;
+    color: #0a07f6;
+    margin-top: 5px;
+}
+.number26__counter {
+    font-size: 20px;
+    color: #0a07f6;
+    margin-top: 5px;
+}
+.number32__counter {
+    font-size: 20px;
+    color: #0a07f6;
+    margin-top: 5px;
+}
+.number26 {
+    background-color: rgb(1, 15, 1);
+    color: white;
+}
+.number32 {
+    background-color: rgb(246, 9, 9);
+    color: white;
+}
+
+.sensor__block {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+.s {
+    width: 45px;
+    height: 10px;
+}
+
+
 .red {
     background-color: red;
 }
 .black {
     background-color: black;
 }
+.green {
+   animation-name: anim;
+   animation-duration: 0.5s;
+}
+@keyframes anim {
+    100% {
+        background-color: #0a07f6;
+    }
+}
+
+
 .footer {
 }
